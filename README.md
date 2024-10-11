@@ -2,6 +2,8 @@
 
 A simple maze generator written in C. This project includes functionality to generate a maze, save it to a file, and load it back from a file. It also features unit tests using the Unity test framework to ensure the correctness of the implementation.
 
+![Render maze example](https://i.imgur.com/oPb8HK4.png)
+
 ## Features
 
 - **Maze Generation**: Generate mazes of specified dimensions.
@@ -28,10 +30,18 @@ This project uses the [Unity test framework](https://github.com/UnityTest/Unity)
    ```
 Copy the src folder from the cloned Unity repository to your project directory.
 
+### Build and run
+
 **Build the project:**
 
  ```bash
 make
+ ```
+
+ **Run the project:**
+
+ ```bash
+./maze
  ```
 
 **Run tests**

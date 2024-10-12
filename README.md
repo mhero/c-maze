@@ -49,3 +49,8 @@ make
  gcc -o test_runner unity/src/unity.c file_manager.c test_file_manager.c -Iunity/src -I.
 ./test_runner
  ```
+
+ ```bash
+ gcc -o test_runner unity/src/unity.c maze_generator.c test_maze_generator.c -Iunity/src -I.
+./test_runner
+ ```

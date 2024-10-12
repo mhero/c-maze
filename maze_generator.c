@@ -16,11 +16,11 @@ Direction *shuffle_dirs() {
     return dirs;
 }
 
-bool is_between(int v, int upper) {
+static bool is_between(int v, int upper) {
     return (v >= 0) && (v < upper);
 }
 
-void generate_maze(MazeGenerator *mg, int cx, int cy) {
+static void generate_maze(MazeGenerator *mg, int cx, int cy) {
     Direction *dirs = shuffle_dirs();
     int x = mg->coordinates.x;
     int y = mg->coordinates.y;
